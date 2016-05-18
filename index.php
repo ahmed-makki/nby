@@ -1,6 +1,7 @@
 <?php
 /**Maki test ?
  * edit from gitub directely
+ * edit while checkedout
  * ANd another files?
  * CodeIgniter
  *
