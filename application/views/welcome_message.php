@@ -1,89 +1,198 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>#بكره_يستاهل</title>
 
-	<style type="text/css">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-	::selection { background-color: #E13300; color: white; }
-	::-moz-selection { background-color: #E13300; color: white; }
+        <link href="css/styles.css" rel="stylesheet">
+        <!--                <link href="css/arfix.css" rel="stylesheet">-->
+        <!--                        <link rel="stylesheet" href="//cdn.rawgit.com/morteza/bootstrap-rtl/v3.3.4/dist/css/bootstrap-rtl.min.css">-->
 
-	body {
-		background-color: #fff;
-		margin: 40px;
-		font: 13px/20px normal Helvetica, Arial, sans-serif;
-		color: #4F5155;
-	}
+        <link href="js/bxslider/jquery.bxslider.css" rel="stylesheet" />
 
-	a {
-		color: #003399;
-		background-color: transparent;
-		font-weight: normal;
-	}
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
 
-	h1 {
-		color: #444;
-		background-color: transparent;
-		border-bottom: 1px solid #D0D0D0;
-		font-size: 19px;
-		font-weight: normal;
-		margin: 0 0 14px 0;
-		padding: 14px 15px 10px 15px;
-	}
+        <div id="centerMainWrapper" class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <a> <img class="img-responsive"  src="images/headerLogo.png"></a>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-6">
+                            <div  id="centerNavWrapper" >
+                                <ul>
+                                    <li class="float-left"><a  href='http://mynestle.com.eg/en/welcome' >HOME</a></li>
+                                    <li class="float-left"><a  href='http://mynestle.com.eg/en/contact_us'>CONTACT US</a></li>
+                                    <li class="float-left"><a href='../bokra/index.php' >AR</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-lg-6">
+                            <div id="SecNavWrapper">
+                                <ul>
+                                    <li class=""><a  class="btn"  href='http://mynestle.com.eg/en/welcome' >UPLOAD YOUR VIDEO</a></li>
+                                    <li class=""><a  class="btn" href='http://mynestle.com.eg/en/contact_us'>UPLOAD YOUR PHOTO</a></li>                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-	code {
-		font-family: Consolas, Monaco, Courier New, Courier, monospace;
-		font-size: 12px;
-		background-color: #f9f9f9;
-		border: 1px solid #D0D0D0;
-		color: #002166;
-		display: block;
-		margin: 14px 0 14px 0;
-		padding: 12px 10px 12px 10px;
-	}
+            <div class="transparent-v-sep"></div>
 
-	#body {
-		margin: 0 15px 0 15px;
-	}
+            <div  class="row">
+                <div class="col-xs-12 col-lg-8  ">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="700" height="410" src="https://www.youtube.com/embed/NY48cGx0ewA?rel=0" frameborder="0" allowfullscreen></iframe>                        
+                    </div>
+                    <div>Rate Here</div>
+                </div>
+                <div class="col-xs-12 col-lg-4">
+                    <div class="comments-wrapper">
+                        <h4 class="color-blue">#بكره_يستاهل</h4>
+                        <div class="comments-body">
+                            <div class="comment-wrapper">
+                                <h5 class="color-blue">Ahmed Makki</h5>
+                                <p>Just a random test</p>
+                            </div>
+                            <div class="comment-wrapper">
+                                <h5 class="color-blue">Ahmed Makki</h5>
+                                <p>Just a random test</p>
+                            </div>
+                            <div class="comment-wrapper">
+                                <h5 class="color-blue">Ahmed Makki</h5>
+                                <p>Just a random test</p>
+                            </div>
+                            <div class="comment-wrapper">
+                                <h5 class="color-blue">Ahmed Makki</h5>
+                                <p>Just a random test</p>
+                            </div>
+                            <div class="comment-wrapper">
+                                <h5 class="color-blue">Ahmed Makki</h5>
+                                <p>Just a random test</p>
+                            </div>
+                            <div class="comment-wrapper">
+                                <h5 class="color-blue">Ahmed Makki</h5>
+                                <p>Just a random test</p>
+                            </div>
+                            <div class="comment-wrapper">
+                                <h5 class="color-blue">Ahmed Makki</h5>
+                                <p>Just a random test</p>
+                            </div>
+                            <div class="comment-wrapper">
+                                <h5 class="color-blue">Ahmed Makki</h5>
+                                <p>Just a random test</p>
+                            </div>
+                        </div>
+                        <div class="comments-form">
+                            <div  class="row">
+                                <div class="col-xs-6">Share Here</div>
+                                <div class="col-xs-6">Rate Here</div>
+                            </div>
+                            <div  class="row">
+                                <div class="col-xs-12 no-spaces">
+                                    <input type="text" class="text-input" name="comment-name" placeholder="Enter your name here..." />                                    
+                                </div>                                
+                            </div>
+                            <div  class="row">
+                                <div class="col-xs-12 no-spaces">
+                                    <input type="text" class="text-input" name="comment-message" placeholder="Enter your comment here..." />
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-	p.footer {
-		text-align: right;
-		font-size: 11px;
-		border-top: 1px solid #D0D0D0;
-		line-height: 32px;
-		padding: 0 10px 0 10px;
-		margin: 20px 0 0 0;
-	}
+            <div class="transparent-v-sep"></div>
 
-	#container {
-		margin: 10px;
-		border: 1px solid #D0D0D0;
-		box-shadow: 0 0 8px #D0D0D0;
-	}
-	</style>
-</head>
-<body>
+            <div class="section-title-wrapper">
+                <div class="title">Videos</div>
+            </div>
+            <div class="section-wrapper">
+            </div>
 
-<div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+            <div class="transparent-v-sep"></div>
 
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+            <div class="section-title-wrapper">
+                <div class="title">Photos</div>
+            </div>
+            <div class="section-wrapper">
+            </div>
+            
+            <div class="transparent-v-sep"></div>
 
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
+            <footer class="footer footer-gray">
 
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
+                <div class="row">
 
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
-	</div>
+                    <div class="col-md-3 imgfoot"><img src="images/footerLogo.png"></div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
-</div>
+                    <div class="col-md-3 txtfoot2">Nestlé is the leading Nutrition, Health and Wellness Company</div>
 
-</body>
+                    <div class="col-md-3 txtfoot">Privacy Note - Your personal information is held in accordance with our Privacy Policy which is available at www.mynestle.com.eg.</div>
+
+                    <div class="col-md-3 txtfoot">Nestlé has committed to not collect any data from children under the age of 15. If you are under the age of 15 please contact us on 16180.</div>
+
+                </div>
+
+                <div class="row footer_wrapper ">
+
+                    <div class="col-md-8">
+
+                        2016 © All Intellectual Property Rights are reserved to Société des Produits Nestlé S. A. Vevey – Switzerland – Trademarks Owner
+
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <a href="https://mynestle.com.eg/en/welcome" class="footer_item float_left margin_left_10 dir">Home</a>
+
+                        <a href="https://mynestle.com.eg/en/contact_us" class="footer_item float_left margin_left_10 dir">Contact Us</a>
+
+                        <a href="https://mynestle.com.eg/en/terms_conditions" class="footer_item float_left margin_left_10 dir">Terms &amp; Conditions</a>
+
+                        <a href="https://mynestle.com.eg/en/privacy_policy" class="footer_item float_left margin_left_10 dir">Privacy Policy</a>
+
+                        <a href="https://mynestle.com.eg/en/faq" class="footer_item float_left margin_left_10 dir">FAQ</a>
+
+                    </div><!-- End of inner -->
+
+                </div>
+
+            </footer>
+
+        </div><!-- #centerMainWrapper-->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                var commentScroller = $(".comments-body").niceScroll({cursorborder: "", cursorcolor: "#7e7979", boxzoom: false, autohidemode: false});
+            });
+        </script>
+    </body>
 </html>
