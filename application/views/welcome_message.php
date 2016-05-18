@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $currentAppr ?>">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">    
@@ -10,15 +10,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>#بكره_يستاهل</title>
 
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>css/font-awesome.min.css" rel="stylesheet">
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>css/bootstrap.min.css" rel="stylesheet">
 
-        <link href="css/styles.css" rel="stylesheet">
-        <!--                <link href="css/arfix.css" rel="stylesheet">-->
-        <!--                        <link rel="stylesheet" href="//cdn.rawgit.com/morteza/bootstrap-rtl/v3.3.4/dist/css/bootstrap-rtl.min.css">-->
+        <link href="<?php echo base_url(); ?>css/styles.css" rel="stylesheet">
+        <?php
+        if ($currentLanguage == "arabic")
+        {
+            ?>
+            <link href="<?php echo base_url(); ?>css/arfix.css" rel="stylesheet">
+            <link rel="stylesheet" href="//cdn.rawgit.com/morteza/bootstrap-rtl/v3.3.4/dist/css/bootstrap-rtl.min.css">
+            <?php
+        }
+        ?>
 
-        <link href="js/bxslider/jquery.bxslider.css" rel="stylesheet" />
+        <link href="<?php echo base_url(); ?>js/bxslider/jquery.bxslider.css" rel="stylesheet" />
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div id="centerMainWrapper" class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <a> <img class="img-responsive"  src="images/headerLogo.png"></a>
+                    <a> <img class="img-responsive"  src="<?php echo base_url(); ?>images/headerLogo.png"></a>
                 </div>
                 <div class="col-lg-8">
                     <div class="row">
@@ -138,14 +145,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="section-wrapper">
             </div>
-            
+
             <div class="transparent-v-sep"></div>
 
             <footer class="footer footer-gray">
 
                 <div class="row">
 
-                    <div class="col-md-3 imgfoot"><img src="images/footerLogo.png"></div>
+                    <div class="col-md-3 imgfoot"><img src="<?php echo base_url(); ?>images/footerLogo.png"></div>
 
                     <div class="col-md-3 txtfoot2">Nestlé is the leading Nutrition, Health and Wellness Company</div>
 
@@ -184,10 +191,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div><!-- #centerMainWrapper-->
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
+        <script src="<?php echo base_url(); ?>js/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
+        <script src="<?php echo base_url(); ?>js/jquery.nicescroll.min.js"></script>
         <script>
             $(document).ready(function()
             {
